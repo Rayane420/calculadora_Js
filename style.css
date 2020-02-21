@@ -1,24 +1,29 @@
-#menu1 ul {
-    padding:0px;
-    margin:0px;
-    background-color:#f1f1f1;
-    list-style-type:none;
-	text-decoration: none;
-	color: #000;
-	
+/**body{
+    background-color: white;
+	position: absolute;
+	width: 80%;
+	height: 90%;  /**altura
+	margin-left: 10%;
 }
-#menu1 ul li { 
-	display: inline; 
-}
+button{
+	width: 15%;
+	height: 100px;background-color: orange;
+	margin: 3px;
+	border-radius: 5px;
+	border-style: none;
+	font-size: 50pt;
 
-li a:hover {
-  background-color: #40E0D0;
-  color: white;
-}
-
-li a {
-  background-color: #f1f1f1;
-  color: black;
-  padding: 8px 16px;
-  text-decoration: none;
+}*/	
+#calculadora{
+	border: 1px;
+	background-color: gray;
+	width: 95%;
+	height: 90%;
+	padding: 10 px;
+	border-radius: 10px;
+	margin: 5px;
+}	
+#keyboard{
+    display: grid;
+	grid-template-columns: 1fr  1fr  1fr 1fr;
 }
