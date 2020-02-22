@@ -11,14 +11,29 @@
 		<div id="calculadora">
 		
 			<div id="display">  
-			123456789
+			1234567890
 			</div>
 			<div id="keyboard">
-				<button value="AC" name="btn_AC" onclick="NumPressed(AC)">AC</button> <button>C</button> <button>%</button> <button>/</button>
-				<button>7</button> <button>8</button> <button>9</button> <button>*</button>				
-				<button>4</button> <button>5</button> <button>6</button> <button>-</button>
-				<button>1</button> <button>2</button> <button>3</button> <button>+</button>
-				<button>+/-</button> <button>0</button> <button>.</button> <button>=</button>
+				<button value="AC" name="btn_AC" onclick="NumPressed(AC)">AC</button> 
+				<button value="C" onclick="limpar()" class="btn">C</button> 
+				<button value="%" onclick="cont(value)" class="btn">%</button> 
+				<button value="/" onclick="cont(value)" class="btn">/</button>
+				<button value="7" onclick="setValue(value)" class="btn">7</button> 
+				<button value="8" onclick="setValue(value)" class="btn">8</button> 
+				<button value="9" onclick="setValue(value)" class="btn">9</button> 
+				<button value="*" onclick="cont(value)"  class="btn">*</button>				
+				<button value="4" onclick="setValue(value)" class="btn">4</button> 
+				<button value="5" onclick="setValue(value)" class="btn">5</button> 
+				<button value="6" onclick="setValue(value)" class="btn">6</button> 
+				<button value="-" onclick="cont(value)"  class="btn">-</button>
+				<button value="1" onclick="setValue(value)" class="btn">1</button> 
+				<button value="2" onclick="setValue(value)" class="btn">2</button> 
+				<button value="3" onclick="setValue(value)" class="btn">3</button> 
+				<button value="+" onclick="cont(value)"  class="btn">+</button>
+				<button>+/-</button> 
+				<button value="0" onclick="setValue(value)" class="btn">0</button> 
+				<button value="." onclick="setValue(value)" class="btn">.</button> 
+				<button value="=" onclick="exe()" class="btn">=</button>
 			</div>
 		</div>
 	</body>

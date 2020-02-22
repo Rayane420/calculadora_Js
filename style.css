@@ -1,5 +1,4 @@
 #calculadora{
-	border: 1px;
 	background-color: #FFF0F5;
 	width: 50%;
 	padding: 20 px;
@@ -19,6 +18,7 @@
 	border-radius: 5px;
 	border-style: none;
 	font-size: 45pt;
+
 }	
 #display{
 	padding: 5px;
