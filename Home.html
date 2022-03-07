@@ -4,37 +4,46 @@
 	<script type="text/javascript" src="calculadora.js"></script>
 	<link href="style.css" rel="stylesheet">
 		<meta charset="utf-8"/>
-		<title>Calculadora</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Calculadora JS</title>
 	</head>
 	<body>
-	
-		<div id="calculadora">
-		
-			<div id="display">  
-			1234567890
+		<div class="fundo" >
+			<div class="calculadora" >
+				<h1>Calculadora JS</h1>
+				<p id="resultado"></p>
+				<table>
+					<tr>
+						<td><button class="botao">C</button> </td>
+						<td><button class="botao"><</button> </td>
+						<td><button class="botao">/</button> </td>
+						<td><button class="botao">*</button> </td>
+					</tr>
+					<tr>
+						<td><button class="botao" onclick="insert('7')">7</button> </td>
+						<td><button class="botao" onclick="insert('8')">8</button> </td>
+						<td><button class="botao" onclick="insert('9')">9</button> </td>
+						<td><button class="botao">-</button> </td>
+					</tr>
+					<tr>
+						<td><button class="botao" onclick="insert('4')">4</button> </td>
+						<td><button class="botao" onclick="insert('5')">5</button> </td>
+						<td><button class="botao" onclick="insert('6')">6</button> </td>
+						<td><button class="botao">+</button> </td>
+					</tr>
+					<tr>
+						<td><button class="botao" onclick="insert('1')">1</button> </td>
+						<td><button class="botao" onclick="insert('2')">2</button> </td>
+						<td><button class="botao" onclick="insert('3')">3</button> </td>
+						<td rowspan="2"><button class="botao2" style="height: 106px;">=</button> </td>
+					</tr>
+					<tr>
+						<td colspan="2"><button class="botao" style="width: 106px;">0</button> </td>
+						<td><button class="botao">.</button> </td>
+					</tr>
+				</table>
 			</div>
-			<div id="keyboard">
-				<button value="AC" name="btn_AC" onclick="NumPressed(AC)">AC</button> 
-				<button value="C" onclick="limpar()" class="btn">C</button> 
-				<button value="%" onclick="cont(value)" class="btn">%</button> 
-				<button value="/" onclick="cont(value)" class="btn">/</button>
-				<button value="7" onclick="setValue(value)" class="btn">7</button> 
-				<button value="8" onclick="setValue(value)" class="btn">8</button> 
-				<button value="9" onclick="setValue(value)" class="btn">9</button> 
-				<button value="*" onclick="cont(value)"  class="btn">*</button>				
-				<button value="4" onclick="setValue(value)" class="btn">4</button> 
-				<button value="5" onclick="setValue(value)" class="btn">5</button> 
-				<button value="6" onclick="setValue(value)" class="btn">6</button> 
-				<button value="-" onclick="cont(value)"  class="btn">-</button>
-				<button value="1" onclick="setValue(value)" class="btn">1</button> 
-				<button value="2" onclick="setValue(value)" class="btn">2</button> 
-				<button value="3" onclick="setValue(value)" class="btn">3</button> 
-				<button value="+" onclick="cont(value)"  class="btn">+</button>
-				<button>+/-</button> 
-				<button value="0" onclick="setValue(value)" class="btn">0</button> 
-				<button value="." onclick="setValue(value)" class="btn">.</button> 
-				<button value="=" onclick="exe()" class="btn">=</button>
-			</div>
+
 		</div>
 	</body>
 </html>

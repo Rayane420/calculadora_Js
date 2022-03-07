@@ -1,33 +1,66 @@
-#calculadora{
-	background-color: #FFF0F5;
-	width: 50%;
-	padding: 20 px;
-	border-radius: 10px;
-	margin: 20px;
-}	
-#keyboard{
-    display: grid;
-	grid-template-columns: repeat(4, 1fr);
-	grid-gap: 10px;
+.fundo{
+    background-image: linear-gradient(45deg, #FFF0F5, pink);
+    height: 100%;
+    color: gray;
+    font-family: Arial, Helvetica, sans-serify;
 }
-#keyboard button{
-/**	width: 15%; */
-	background-color: #FFE4E1;
-	height: 100px;
-	margin: 3px;
-	border-radius: 5px;
-	border-style: none;
-	font-size: 45pt;
+.calculadora{
+    position: absolute;
+    background-color: #FFF0F5;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    padding: 30px;
 
-}	
-#display{
-	padding: 5px;
-	font-size: 30px;
-	text-align: right;
-	background: #FFFAFA;
-	margin: 10px;
 }
+.botao{
+    background-color: #FFE4E1;
+	height: 50px;
+	width: 50px;
+	margin: 1px;
+	border-radius: 10px;
+	border: none;
+	font-size: 25pt;
+	color: gray;
+}
+
+.botao2{
+    background-color: #FFE4E1;
+	height: 50px;
+	width: 50px;
+	margin: 1px;
+	border-radius: 10px;
+	border: none;
+	font-size: 25pt;
+	color: gray;
+}
+
+.botao:hover{
+    background-color: #f4d9d0;
+    color: gray;
+}
+
+.botao2:hover{
+    background-color: #f0fff0;
+}
+
+#resultado{
+    background-color: #fff;
+    width: 207px;
+    height: 30px;
+    border-radius: 10px;
+    margin: 5px;
+    color: black;
+    text-align: right;
+    font-size: 25px;
+    padding: 5px;
+}
+
+
 body{
-	font-family: sans-serif;
-	
+	font-family: arial;
+	margin: 0;
+	padding: 0;
 }
+
