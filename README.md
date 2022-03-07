@@ -16,9 +16,5 @@ git clone https://github.com/Rayane420/calculadora_simples.git
 ```
 
 
-#### 📭Caso você encontre um bug/ponto de melhoria nessa aplicação
-
-Você poderá enviar seu report aqui: https://github.com/Rayane420/calculadora_simples/issues
-
 ### Print do resultado final da calculadora
 ![imagem com foto da calculadora](https://github.com/Rayane420/calculadora_simples/blob/master/calc.png)
